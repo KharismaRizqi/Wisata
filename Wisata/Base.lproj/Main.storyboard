@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mXN-zy-aDB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="lFj-vq-cRE">
+            <objects>
+                <viewController id="mXN-zy-aDB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kDM-Xa-FDy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="design" translatesAutoresizingMaskIntoConstraints="NO" id="Tcn-VS-fV0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="IgL-eE-Y7o"/>
+                                    <constraint firstAttribute="width" constant="375" id="KyR-lG-Q5c"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NXN-vm-xRC">
+                                <rect key="frame" x="42" y="472" width="290" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="D92-2c-xZC"/>
+                                    <constraint firstAttribute="width" constant="290" id="Ups-JY-FJf"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="v27-u7-Sci" kind="show" id="ryp-di-Us9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NXN-vm-xRC" firstAttribute="top" secondItem="kDM-Xa-FDy" secondAttribute="topMargin" constant="452" id="AEf-Mh-WEm"/>
+                            <constraint firstItem="gyZ-4W-gQ0" firstAttribute="trailing" secondItem="NXN-vm-xRC" secondAttribute="trailing" constant="43" id="C9C-dM-IHt"/>
+                            <constraint firstItem="Tcn-VS-fV0" firstAttribute="bottom" secondItem="gyZ-4W-gQ0" secondAttribute="bottom" id="D6t-8X-c4B"/>
+                            <constraint firstItem="Tcn-VS-fV0" firstAttribute="top" secondItem="kDM-Xa-FDy" secondAttribute="top" id="P16-tZ-qo0"/>
+                            <constraint firstItem="NXN-vm-xRC" firstAttribute="leading" secondItem="gyZ-4W-gQ0" secondAttribute="leading" constant="42" id="chK-bx-nV8"/>
+                            <constraint firstItem="gyZ-4W-gQ0" firstAttribute="bottom" secondItem="NXN-vm-xRC" secondAttribute="bottom" constant="64" id="mUQ-0S-yEo"/>
+                            <constraint firstItem="Tcn-VS-fV0" firstAttribute="trailing" secondItem="gyZ-4W-gQ0" secondAttribute="trailing" id="ocA-Tw-2io"/>
+                            <constraint firstItem="Tcn-VS-fV0" firstAttribute="leading" secondItem="gyZ-4W-gQ0" secondAttribute="leading" id="tdK-jV-y4h"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gyZ-4W-gQ0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W6u-MB-fCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-847.20000000000005" y="-304.4977511244378"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nYH-uv-Ygd">
+            <objects>
+                <viewController id="v27-u7-Sci" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6mm-1m-XsC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MENU" translatesAutoresizingMaskIntoConstraints="NO" id="gbs-vd-yz7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="26D-Pe-WBw"/>
+                                    <constraint firstAttribute="width" constant="375" id="wfi-8x-biS"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIF-pS-JKD">
+                                <rect key="frame" x="170" y="115" width="40" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="h84-Pa-BCI"/>
+                                    <constraint firstAttribute="height" constant="98" id="wIv-XD-JIm"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="JuI-BX-vL0" kind="show" id="chM-f4-xI7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaK-B6-vkS">
+                                <rect key="frame" x="227" y="149" width="71" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71" id="4d8-vw-4MR"/>
+                                    <constraint firstAttribute="height" constant="85" id="unP-MA-lGn"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="qtF-4y-nno" kind="show" id="QsC-mS-vL7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUf-OZ-dGF">
+                                <rect key="frame" x="236" y="361" width="62" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="1NC-aq-N3y"/>
+                                    <constraint firstAttribute="width" constant="62" id="hFp-uj-kkD"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="A4o-Mr-q4D" kind="show" id="1q9-vf-gR1"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="TDP-Lj-JTa">
+                                <rect key="frame" x="134" y="585" width="112" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="112" id="BKy-15-gyU"/>
+                                    <constraint firstAttribute="height" constant="39" id="eQD-Xe-7jn"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOR-jB-fxn">
+                                <rect key="frame" x="158" y="585" width="71" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="KZr-up-zHo"/>
+                                    <constraint firstAttribute="width" constant="71" id="QRS-IG-60b"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="mXN-zy-aDB" kind="show" id="s4d-A7-eDt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKl-BP-MOY">
+                                <rect key="frame" x="271" y="256" width="88" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="ToO-uV-gfy"/>
+                                    <constraint firstAttribute="height" constant="67" id="gXZ-Xp-caA"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="rgZ-S6-8Ow" kind="show" id="IEi-Mg-BN2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IaK-B6-vkS" firstAttribute="leading" secondItem="kIF-pS-JKD" secondAttribute="trailing" constant="17" id="6aD-GR-Nsg"/>
+                            <constraint firstItem="vOR-jB-fxn" firstAttribute="leading" secondItem="lna-tq-LQy" secondAttribute="leading" constant="158" id="6vz-qY-ebj"/>
+                            <constraint firstItem="gbs-vd-yz7" firstAttribute="bottom" secondItem="lna-tq-LQy" secondAttribute="bottom" id="9TS-aZ-bjP"/>
+                            <constraint firstItem="lna-tq-LQy" firstAttribute="trailing" secondItem="vOR-jB-fxn" secondAttribute="trailing" constant="146" id="Cw3-uv-nHx"/>
+                            <constraint firstItem="gbs-vd-yz7" firstAttribute="leading" secondItem="lna-tq-LQy" secondAttribute="leading" id="DXG-Lw-KyL"/>
+                            <constraint firstItem="WUf-OZ-dGF" firstAttribute="top" secondItem="6mm-1m-XsC" secondAttribute="topMargin" constant="341" id="Fhq-Mk-qfU"/>
+                            <constraint firstItem="TDP-Lj-JTa" firstAttribute="leading" secondItem="lna-tq-LQy" secondAttribute="leading" constant="134" id="Jyn-5m-zfA"/>
+                            <constraint firstItem="kIF-pS-JKD" firstAttribute="leading" secondItem="lna-tq-LQy" secondAttribute="leading" constant="170" id="LKh-Au-DN3"/>
+                            <constraint firstItem="vOR-jB-fxn" firstAttribute="top" secondItem="6mm-1m-XsC" secondAttribute="topMargin" constant="565" id="NSp-fb-S4q"/>
+                            <constraint firstItem="TDP-Lj-JTa" firstAttribute="top" secondItem="WUf-OZ-dGF" secondAttribute="bottom" constant="155" id="Oa3-Fk-7ue"/>
+                            <constraint firstItem="lna-tq-LQy" firstAttribute="trailing" secondItem="IaK-B6-vkS" secondAttribute="trailing" constant="77" id="T1C-87-IYQ"/>
+                            <constraint firstItem="lna-tq-LQy" firstAttribute="trailing" secondItem="WUf-OZ-dGF" secondAttribute="trailing" constant="77" id="T6B-xb-VEI"/>
+                            <constraint firstItem="lna-tq-LQy" firstAttribute="trailing" secondItem="kIF-pS-JKD" secondAttribute="trailing" constant="165" id="U51-Pj-mfo"/>
+                            <constraint firstItem="tKl-BP-MOY" firstAttribute="leading" secondItem="lna-tq-LQy" secondAttribute="leading" constant="271" id="UAQ-ht-MVo"/>
+                            <constraint firstItem="WUf-OZ-dGF" firstAttribute="leading" secondItem="lna-tq-LQy" secondAttribute="leading" constant="236" id="WX9-Mb-eqV"/>
+                            <constraint firstItem="lna-tq-LQy" firstAttribute="trailing" secondItem="TDP-Lj-JTa" secondAttribute="trailing" constant="129" id="YWb-VU-tAG"/>
+                            <constraint firstItem="IaK-B6-vkS" firstAttribute="top" secondItem="6mm-1m-XsC" secondAttribute="topMargin" constant="129" id="gyc-F3-WWH"/>
+                            <constraint firstItem="lna-tq-LQy" firstAttribute="trailing" secondItem="tKl-BP-MOY" secondAttribute="trailing" constant="16" id="hle-xv-iVh"/>
+                            <constraint firstItem="gbs-vd-yz7" firstAttribute="trailing" secondItem="lna-tq-LQy" secondAttribute="trailing" id="iBo-do-qSl"/>
+                            <constraint firstItem="kIF-pS-JKD" firstAttribute="top" secondItem="6mm-1m-XsC" secondAttribute="topMargin" constant="95" id="mw4-7D-J9h"/>
+                            <constraint firstItem="tKl-BP-MOY" firstAttribute="top" secondItem="6mm-1m-XsC" secondAttribute="topMargin" constant="236" id="o73-op-GqS"/>
+                            <constraint firstItem="gbs-vd-yz7" firstAttribute="top" secondItem="6mm-1m-XsC" secondAttribute="top" id="sjy-7t-cUk"/>
+                            <constraint firstItem="TDP-Lj-JTa" firstAttribute="top" secondItem="6mm-1m-XsC" secondAttribute="topMargin" constant="565" id="tf0-d0-brX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lna-tq-LQy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VWZ-2l-BbG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.799999999999997" y="-307.1964017991005"/>
+        </scene>
+        <!--Jogja View Controller-->
+        <scene sceneID="Xn5-Cb-rzQ">
+            <objects>
+                <viewController id="hmG-au-2Rp" customClass="JogjaViewController" customModule="Wisata" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mGA-xe-5Sc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Nck-Fq-5l8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="665"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="665" id="JBO-Ac-iUD"/>
+                                    <constraint firstAttribute="width" constant="375" id="hEz-AV-5nw"/>
+                                </constraints>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="LVb-jx-bem">
+                                <rect key="frame" x="142" y="625" width="91" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="RyB-xM-KZs"/>
+                                    <constraint firstAttribute="width" constant="91" id="b3U-oD-FaM"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EnN-T4-Dfa">
+                                <rect key="frame" x="171" y="624" width="33" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="RK7-Gz-sBO"/>
+                                    <constraint firstAttribute="width" constant="33" id="eQa-EX-9Qe"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="JuI-BX-vL0" kind="show" id="buz-1l-qtK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Nck-Fq-5l8" firstAttribute="top" secondItem="mGA-xe-5Sc" secondAttribute="top" id="AnY-vk-BaY"/>
+                            <constraint firstItem="LVb-jx-bem" firstAttribute="top" secondItem="mGA-xe-5Sc" secondAttribute="topMargin" constant="605" id="AuY-Se-h2e"/>
+                            <constraint firstItem="EnN-T4-Dfa" firstAttribute="leading" secondItem="cMI-e1-TQI" secondAttribute="leading" constant="171" id="CFO-o6-yas"/>
+                            <constraint firstItem="LVb-jx-bem" firstAttribute="leading" secondItem="cMI-e1-TQI" secondAttribute="leading" constant="142" id="NLi-GA-LtZ"/>
+                            <constraint firstItem="Nck-Fq-5l8" firstAttribute="leading" secondItem="cMI-e1-TQI" secondAttribute="leading" id="bAT-gN-z87"/>
+                            <constraint firstItem="cMI-e1-TQI" firstAttribute="trailing" secondItem="LVb-jx-bem" secondAttribute="trailing" constant="142" id="dEt-ZZ-53O"/>
+                            <constraint firstItem="cMI-e1-TQI" firstAttribute="trailing" secondItem="EnN-T4-Dfa" secondAttribute="trailing" constant="171" id="dQi-x2-GRH"/>
+                            <constraint firstItem="cMI-e1-TQI" firstAttribute="bottom" secondItem="Nck-Fq-5l8" secondAttribute="bottom" constant="2" id="uG6-eb-MEo"/>
+                            <constraint firstItem="Nck-Fq-5l8" firstAttribute="trailing" secondItem="cMI-e1-TQI" secondAttribute="trailing" id="v5M-Qe-hxc"/>
+                            <constraint firstItem="EnN-T4-Dfa" firstAttribute="top" secondItem="mGA-xe-5Sc" secondAttribute="topMargin" constant="604" id="x7V-9M-XQs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cMI-e1-TQI"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapKit" destination="Nck-Fq-5l8" id="QDg-wX-Dwe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B6Q-cE-1wZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="421.60000000000002" y="-1917.3913043478262"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tSH-oz-8qC">
+            <objects>
+                <viewController id="IYi-09-noh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PhN-1F-VI9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CED-5O-vfg">
+                                <rect key="frame" x="16" y="141" width="343" height="396"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="asd-0u-vYC"/>
+                                    <constraint firstAttribute="height" constant="396" id="kFs-VP-Jzj"/>
+                                </constraints>
+                                <string key="text">candi Prambanan terletak di lingkungan Taman Wisata Prambanan, kurang lebih 17 km ke arah timur dari Yogyakarta, tepatnya di Desa Prambanan Kecamatan Bokoharjo. Lokasinya hanya sekitar 100 m dari jalan raya Yogya-Solo, sehingga tidak sulit untuk menemukannya. Sebagian dari kawasan wisata yang yang terletak pada ketinggian 154 m di atas permukaan laut ini termasuk dalam wilayah Kabupaten Sleman. sedangkan sebagian lagi masuk dalam wilayah Klaten.
+
+Candi Prambanan merupakan candi Hindu yang terbesar di Indonesia. Sampai saat ini belum dapat dipastikan kapan candi ini dibangun dan atas perintah siapa, namun kuat dugaan bahwa Candi Prambanan dibangun sekitar pertengahan abad ke-9 oleh raja dari Wangsa Sanjaya, yaitu Raja Balitung Maha Sambu. Dugaan tersebut didasarkan pada isi Prasasti Syiwagrha yang ditemukan di sekitar Prambanan dan saat ini tersimpan di Museum Nasional di Jakarta. Prasasti berangka tahun 778 Saka (856 M) ini ditulis pada masa pemerintahan Rakai Pikatan.
+
+Pemugaran Candi Prambanan memakan waktu yang sangat panjang, seakan tak pernah selesai. Penemuan kembali reruntuhan bangunan yang terbesar, yaitu Candi Syiwa, dilaporkan oleh C.A. Lons pada tahun 1733. Upaya penggalian dan pencatatan pertama dilaksanakan di bawah pengawasan Groneman. Penggalian diselesaikan pada tahun 1885, meliputi pembersihan semak belukar dan pengelompokan batu-batu reruntuhan candi.
+
+Pada tahun 1902, upaya tersebut dilanjutkan kembali oleh van Erp. Pengelompokan dan identifikasi batu-batu reruntuhan dilaksanakan secara lebih rinci. Pada tahun 1918, pemugaran terhadap Candi Prambanan dilanjutkan kembali di bawah pengawasan Dinas Purbakala (Oudheidkundige Dienst) yang dipimpin oleh P.J. Perquin. Melalui upaya ini, sebagian dari reruntuhan Candi Syiwa dapat direkonstruksi kembali. 
+Pada tahun 1926, dibentuk sebuah panitia pemugaran di bawah pimpinan De Haan untuk melanjutkan upaya yang telah dilaksanakan Perquin. Di bawah pengawasan panitia ini, selain pembangunan kembali Candi Syiwa semakin disempurnakan hasilnya, dimulai juga persiapan pembangunan Candi Apit.
+
+Pada tahun 1931, De Haan meninggal dan digantikan oleh V.R. van Romondt. Pada tahun 1932, pemugaran kedua Candi Apit berhasil dirampungkan. Pemugaran terpaksa dihentikan pada tahun 1942, ketika Jepang mengambil alih pemerintahan di Indonesia. Setelah melalui proses panjang dan tersendat-sendat akibat perang dan peralihan pemerintahan, pada tahun 1953 pemugaran Candi Syiwa dan dua Candi Apit dinyatakan selesai. Sampai saat ini, pemugaran Candi Prambanan masih terus dilaksanakan secara bertahap.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DES2JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="jIO-Y2-gNg">
+                                <rect key="frame" x="52" y="20" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Ir7-Ks-wgm"/>
+                                    <constraint firstAttribute="width" constant="240" id="s0q-hs-hca"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="5IB-5v-ZhY">
+                                <rect key="frame" x="67" y="606" width="240" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="3bP-CY-ZAH"/>
+                                    <constraint firstAttribute="width" constant="240" id="HjD-R7-j7a"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sB-eB-g4h">
+                                <rect key="frame" x="156" y="606" width="63" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="fFZ-OR-ww2"/>
+                                    <constraint firstAttribute="width" constant="63" id="i7W-YD-MVx"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="JuI-BX-vL0" kind="show" id="euL-Ti-wiq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CED-5O-vfg" firstAttribute="leading" secondItem="EB6-um-j9Z" secondAttribute="leading" constant="16" id="0Mz-5W-B4a"/>
+                            <constraint firstItem="jIO-Y2-gNg" firstAttribute="leading" secondItem="EB6-um-j9Z" secondAttribute="leading" constant="52" id="4tN-m5-uI7"/>
+                            <constraint firstItem="jIO-Y2-gNg" firstAttribute="top" secondItem="PhN-1F-VI9" secondAttribute="topMargin" id="EQd-FJ-RLZ"/>
+                            <constraint firstItem="4sB-eB-g4h" firstAttribute="leading" secondItem="EB6-um-j9Z" secondAttribute="leading" constant="156" id="EcM-Dp-pfv"/>
+                            <constraint firstItem="5IB-5v-ZhY" firstAttribute="leading" secondItem="EB6-um-j9Z" secondAttribute="leading" constant="67" id="HeJ-CH-SJ1"/>
+                            <constraint firstItem="EB6-um-j9Z" firstAttribute="trailing" secondItem="jIO-Y2-gNg" secondAttribute="trailing" constant="83" id="IjR-2F-jbQ"/>
+                            <constraint firstItem="EB6-um-j9Z" firstAttribute="trailing" secondItem="CED-5O-vfg" secondAttribute="trailing" constant="16" id="KFr-dY-fbV"/>
+                            <constraint firstItem="EB6-um-j9Z" firstAttribute="trailing" secondItem="4sB-eB-g4h" secondAttribute="trailing" constant="156" id="O07-gz-EvI"/>
+                            <constraint firstItem="5IB-5v-ZhY" firstAttribute="top" secondItem="PhN-1F-VI9" secondAttribute="topMargin" constant="586" id="cfw-GI-9Rl"/>
+                            <constraint firstItem="4sB-eB-g4h" firstAttribute="top" secondItem="PhN-1F-VI9" secondAttribute="topMargin" constant="586" id="qs8-td-Nvt"/>
+                            <constraint firstItem="EB6-um-j9Z" firstAttribute="trailing" secondItem="5IB-5v-ZhY" secondAttribute="trailing" constant="68" id="sCA-UV-hcs"/>
+                            <constraint firstItem="CED-5O-vfg" firstAttribute="top" secondItem="PhN-1F-VI9" secondAttribute="topMargin" constant="121" id="ypU-Ve-xSS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EB6-um-j9Z"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sce-7S-ohb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="45.600000000000001" y="-1210.344827586207"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Faw-ZK-VoS">
+            <objects>
+                <viewController id="PZ7-aU-0r6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eaQ-L7-68g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HARGA TIKET JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="pa0-47-rpF">
+                                <rect key="frame" x="53" y="20" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="9z3-yW-yH0"/>
+                                    <constraint firstAttribute="width" constant="240" id="yFX-kR-SgR"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0ms-bM-ae1">
+                                <rect key="frame" x="67" y="181" width="240" height="285"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="SxG-Bu-RTQ"/>
+                                    <constraint firstAttribute="height" constant="285" id="yZ7-7B-tqI"/>
+                                </constraints>
+                                <string key="text">Bagi wisatawan domestik dewasa, HTM Candi Prambanan naik menjadi Rp 40.000 dari harga sebelumnya Rp 30.000 per orang sekali kunjungan.
+
+Sedangkan tiket masuk bagi anak-anak yang sebelumnya Rp 12.500 menjadi Rp 20.000 per anak.
+
+“Untuk wisatawan mancanegara juga terjadi perubahan yaitu 25 USD per wisatawan dari harga sebelumnya 18 USD,” katanya, Minggu
+
+
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="bgG-Iv-G3y">
+                                <rect key="frame" x="67" y="606" width="240" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="5P6-ca-eiE"/>
+                                    <constraint firstAttribute="height" constant="41" id="Vl0-Mb-yLL"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocs-Ph-eTO">
+                                <rect key="frame" x="158" y="606" width="60" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="1LY-EP-HyI"/>
+                                    <constraint firstAttribute="width" constant="60" id="3kI-rQ-kuo"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="JuI-BX-vL0" kind="show" id="Jtp-LO-4Ed"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ocs-Ph-eTO" firstAttribute="leading" secondItem="OWm-AB-eI3" secondAttribute="leading" constant="158" id="96t-Hp-HV1"/>
+                            <constraint firstItem="OWm-AB-eI3" firstAttribute="trailing" secondItem="0ms-bM-ae1" secondAttribute="trailing" constant="68" id="Avj-OP-tNh"/>
+                            <constraint firstItem="bgG-Iv-G3y" firstAttribute="leading" secondItem="OWm-AB-eI3" secondAttribute="leading" constant="67" id="Dcf-iD-6zg"/>
+                            <constraint firstItem="OWm-AB-eI3" firstAttribute="trailing" secondItem="pa0-47-rpF" secondAttribute="trailing" constant="82" id="Dn0-Zu-Jcc"/>
+                            <constraint firstItem="bgG-Iv-G3y" firstAttribute="top" secondItem="eaQ-L7-68g" secondAttribute="topMargin" constant="586" id="HUg-SD-297"/>
+                            <constraint firstItem="0ms-bM-ae1" firstAttribute="leading" secondItem="OWm-AB-eI3" secondAttribute="leading" constant="67" id="Owt-a8-kCv"/>
+                            <constraint firstItem="OWm-AB-eI3" firstAttribute="trailing" secondItem="ocs-Ph-eTO" secondAttribute="trailing" constant="157" id="XKM-Sc-nv2"/>
+                            <constraint firstItem="0ms-bM-ae1" firstAttribute="top" secondItem="eaQ-L7-68g" secondAttribute="topMargin" constant="161" id="aYR-5L-soi"/>
+                            <constraint firstItem="OWm-AB-eI3" firstAttribute="trailing" secondItem="bgG-Iv-G3y" secondAttribute="trailing" constant="68" id="jDh-b9-50o"/>
+                            <constraint firstItem="pa0-47-rpF" firstAttribute="top" secondItem="eaQ-L7-68g" secondAttribute="topMargin" id="rQc-yI-FnE"/>
+                            <constraint firstItem="ocs-Ph-eTO" firstAttribute="top" secondItem="eaQ-L7-68g" secondAttribute="topMargin" constant="586" id="rh0-8l-gHt"/>
+                            <constraint firstItem="pa0-47-rpF" firstAttribute="leading" secondItem="OWm-AB-eI3" secondAttribute="leading" constant="53" id="xmG-WX-WLY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OWm-AB-eI3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="raH-0b-rPy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="780" y="-1193.2533733133434"/>
+        </scene>
+        <!--Jogja Video View Controller-->
+        <scene sceneID="EHd-Gg-NkS">
+            <objects>
+                <viewController id="JuI-BX-vL0" customClass="JogjaVideoViewController" customModule="Wisata" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ntn-to-06H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhiteJogja" translatesAutoresizingMaskIntoConstraints="NO" id="92b-3o-rlj">
+                                <rect key="frame" x="79" y="57" width="240" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="JMb-nY-g2P"/>
+                                    <constraint firstAttribute="height" constant="92" id="Sqz-D5-TjX"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="CCM-Yl-iNt">
+                                <rect key="frame" x="130" y="606" width="115" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="2t3-CW-zvb"/>
+                                    <constraint firstAttribute="height" constant="41" id="lIA-Mu-sWl"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czp-UY-Fg4">
+                                <rect key="frame" x="158" y="606" width="61" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="HnB-Li-pVv"/>
+                                    <constraint firstAttribute="height" constant="41" id="vCX-Ky-hSH"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="v27-u7-Sci" kind="show" id="NwH-sG-z4D"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JOGJA DES" translatesAutoresizingMaskIntoConstraints="NO" id="IAF-tC-jSl">
+                                <rect key="frame" x="67" y="249" width="240" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="6lQ-XJ-0pJ"/>
+                                    <constraint firstAttribute="height" constant="43" id="cUK-IK-5mS"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZO-eC-pdF">
+                                <rect key="frame" x="67" y="255" width="252" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0la-n4-w2N"/>
+                                    <constraint firstAttribute="width" constant="252" id="GxO-uQ-F1H"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="IYi-09-noh" kind="show" id="q5y-gv-QSn"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HARGA TIKET JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="deQ-7Z-O0f">
+                                <rect key="frame" x="36" y="281" width="283" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="141" id="AHz-Ef-wOc"/>
+                                    <constraint firstAttribute="width" constant="283" id="ky6-as-97y"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQ7-y3-VOS">
+                                <rect key="frame" x="70" y="324" width="237" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Z7N-uU-yaV"/>
+                                    <constraint firstAttribute="width" constant="237" id="cVJ-Qo-9xV"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="PZ7-aU-0r6" kind="show" id="gNe-5H-LGR"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOKASIJOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="Z2y-v0-Ux0">
+                                <rect key="frame" x="36" y="368" width="271" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="OQH-Wj-8By"/>
+                                    <constraint firstAttribute="width" constant="271" id="ctZ-Th-WaV"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUp-n8-Hjg">
+                                <rect key="frame" x="70" y="409" width="232" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="232" id="kEY-F8-uzh"/>
+                                    <constraint firstAttribute="height" constant="30" id="tX7-Up-dVQ"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="hmG-au-2Rp" kind="show" id="jow-NM-cx4"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JOGJA VIDEO" translatesAutoresizingMaskIntoConstraints="NO" id="IWd-Re-L7B">
+                                <rect key="frame" x="42" y="447" width="271" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="271" id="DBF-Wj-uqH"/>
+                                    <constraint firstAttribute="height" constant="140" id="gn0-bm-MeR"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lv7-sU-Ceq">
+                                <rect key="frame" x="75" y="490" width="220" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="XoC-Fx-agG"/>
+                                    <constraint firstAttribute="width" constant="220" id="yO5-Tc-k1t"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="JogjaVid:" destination="JuI-BX-vL0" eventType="touchUpInside" id="ULS-oM-0ms"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PUp-n8-Hjg" firstAttribute="top" secondItem="ntn-to-06H" secondAttribute="topMargin" constant="389" id="42s-V1-wdf"/>
+                            <constraint firstItem="czp-UY-Fg4" firstAttribute="leading" secondItem="Y9W-bF-G0L" secondAttribute="leading" constant="158" id="7qu-PB-RBv"/>
+                            <constraint firstItem="Y9W-bF-G0L" firstAttribute="trailing" secondItem="IWd-Re-L7B" secondAttribute="trailing" constant="62" id="9JL-wb-9og"/>
+                            <constraint firstItem="ZZO-eC-pdF" firstAttribute="leading" secondItem="Y9W-bF-G0L" secondAttribute="leading" constant="67" id="9n1-g4-1TY"/>
+                            <constraint firstItem="IWd-Re-L7B" firstAttribute="leading" secondItem="Y9W-bF-G0L" secondAttribute="leading" constant="42" id="FdZ-pz-aW7"/>
+                            <constraint firstItem="IWd-Re-L7B" firstAttribute="top" secondItem="ntn-to-06H" secondAttribute="topMargin" constant="427" id="Jv2-hE-LDu"/>
+                            <constraint firstItem="deQ-7Z-O0f" firstAttribute="leading" secondItem="Y9W-bF-G0L" secondAttribute="leading" constant="36" id="LR1-oW-IwH"/>
+                            <constraint firstItem="Lv7-sU-Ceq" firstAttribute="leading" secondItem="Y9W-bF-G0L" secondAttribute="leading" constant="75" id="M8N-ne-gst"/>
+                            <constraint firstItem="Y9W-bF-G0L" firstAttribute="trailing" secondItem="Z2y-v0-Ux0" secondAttribute="trailing" constant="68" id="Mf3-RU-AQQ"/>
+                            <constraint firstItem="Y9W-bF-G0L" firstAttribute="trailing" secondItem="92b-3o-rlj" secondAttribute="trailing" constant="56" id="NXH-PQ-Mwb"/>
+                            <constraint firstItem="CCM-Yl-iNt" firstAttribute="top" secondItem="ntn-to-06H" secondAttribute="topMargin" constant="586" id="VbE-96-yp2"/>
+                            <constraint firstItem="Z2y-v0-Ux0" firstAttribute="top" secondItem="ntn-to-06H" secondAttribute="topMargin" constant="348" id="ZeM-JH-rbZ"/>
+                            <constraint firstItem="Y9W-bF-G0L" firstAttribute="trailing" secondItem="ZZO-eC-pdF" secondAttribute="trailing" constant="56" id="bVt-r5-ijE"/>
+                            <constraint firstItem="IAF-tC-jSl" firstAttribute="top" secondItem="ntn-to-06H" secondAttribute="topMargin" constant="229" id="bip-x3-Ra0"/>
+                            <constraint firstItem="deQ-7Z-O0f" firstAttribute="top" secondItem="ntn-to-06H" secondAttribute="topMargin" constant="261" id="cuC-S9-JPy"/>
+                            <constraint firstItem="QQ7-y3-VOS" firstAttribute="top" secondItem="ntn-to-06H" secondAttribute="topMargin" constant="304" id="dAe-Gy-Z3E"/>
+                            <constraint firstItem="92b-3o-rlj" firstAttribute="leading" secondItem="Y9W-bF-G0L" secondAttribute="leading" constant="79" id="hdw-c0-80v"/>
+                            <constraint firstItem="Y9W-bF-G0L" firstAttribute="trailing" secondItem="IAF-tC-jSl" secondAttribute="trailing" constant="68" id="j2N-uH-Psa"/>
+                            <constraint firstItem="CCM-Yl-iNt" firstAttribute="leading" secondItem="Y9W-bF-G0L" secondAttribute="leading" constant="130" id="k1s-5K-259"/>
+                            <constraint firstItem="Y9W-bF-G0L" firstAttribute="trailing" secondItem="QQ7-y3-VOS" secondAttribute="trailing" constant="68" id="k2W-BQ-qFg"/>
+                            <constraint firstItem="Lv7-sU-Ceq" firstAttribute="top" secondItem="ntn-to-06H" secondAttribute="topMargin" constant="470" id="kCL-oT-iye"/>
+                            <constraint firstItem="Z2y-v0-Ux0" firstAttribute="leading" secondItem="Y9W-bF-G0L" secondAttribute="leading" constant="36" id="lUG-7n-LV3"/>
+                            <constraint firstItem="Y9W-bF-G0L" firstAttribute="trailing" secondItem="PUp-n8-Hjg" secondAttribute="trailing" constant="73" id="lf4-X7-2Ib"/>
+                            <constraint firstItem="Y9W-bF-G0L" firstAttribute="trailing" secondItem="deQ-7Z-O0f" secondAttribute="trailing" constant="56" id="nsJ-CO-dG4"/>
+                            <constraint firstItem="ZZO-eC-pdF" firstAttribute="top" secondItem="ntn-to-06H" secondAttribute="topMargin" constant="235" id="o7k-36-gya"/>
+                            <constraint firstItem="IAF-tC-jSl" firstAttribute="leading" secondItem="Y9W-bF-G0L" secondAttribute="leading" constant="67" id="ofd-k6-Cu9"/>
+                            <constraint firstItem="92b-3o-rlj" firstAttribute="top" secondItem="ntn-to-06H" secondAttribute="topMargin" constant="37" id="sR9-pC-QRf"/>
+                            <constraint firstItem="PUp-n8-Hjg" firstAttribute="leading" secondItem="Y9W-bF-G0L" secondAttribute="leading" constant="70" id="sZ7-Wr-vfw"/>
+                            <constraint firstItem="Y9W-bF-G0L" firstAttribute="trailing" secondItem="Lv7-sU-Ceq" secondAttribute="trailing" constant="80" id="tNB-wa-7y0"/>
+                            <constraint firstItem="Y9W-bF-G0L" firstAttribute="trailing" secondItem="CCM-Yl-iNt" secondAttribute="trailing" constant="130" id="vL8-jJ-e4u"/>
+                            <constraint firstItem="czp-UY-Fg4" firstAttribute="top" secondItem="ntn-to-06H" secondAttribute="topMargin" constant="586" id="wp7-Tp-T4q"/>
+                            <constraint firstItem="QQ7-y3-VOS" firstAttribute="leading" secondItem="Y9W-bF-G0L" secondAttribute="leading" constant="70" id="xVW-eu-fku"/>
+                            <constraint firstItem="Y9W-bF-G0L" firstAttribute="trailing" secondItem="czp-UY-Fg4" secondAttribute="trailing" constant="156" id="zxH-nB-YtE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Y9W-bF-G0L"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="za8-SM-7hr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757.60000000000002" y="-531.18440779610194"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O21-ya-nUJ">
+            <objects>
+                <viewController id="ERD-wP-4AM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X6F-dy-Uvv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DES2JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="DWe-zt-8gR">
+                                <rect key="frame" x="51" y="58" width="240" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81" id="7v1-4g-yO4"/>
+                                    <constraint firstAttribute="width" constant="240" id="b29-aB-jqv"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WOB-R0-VwL">
+                                <rect key="frame" x="67" y="158" width="240" height="350.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="nQb-cf-LTn"/>
+                                    <constraint firstAttribute="height" constant="350.5" id="rXO-bo-1Zb"/>
+                                </constraints>
+                                <string key="text">Wahana baru dari Bekasi Square ini menawarkan sensasi dingin yang menyejukkan seperti musim dingin di Eropa.
+
+Cuaca panas di luar ruangan akan langsung sirna saat kamu memasuki wahana salju ini.
+
+Apalagi tempat ini buka mulai pukul 14.00 WIB, jadi pas banget buat kamu yang ingin ngadem. Tentu, tempat ini bisa dijadikan spot untuk berburu foto instagramable di Bekasi.
+
+
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="fBE-iJ-fAG">
+                                <rect key="frame" x="123" y="605" width="128" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="D1L-Vp-uhR"/>
+                                    <constraint firstAttribute="width" constant="128" id="ksi-fy-Eey"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAB-YY-hAr">
+                                <rect key="frame" x="158" y="605" width="61" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="ZYy-qD-gPb"/>
+                                    <constraint firstAttribute="height" constant="45" id="sFN-I4-x4Y"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="qtF-4y-nno" kind="show" id="Znz-Fh-5v0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c17-Ed-jwV" firstAttribute="trailing" secondItem="fBE-iJ-fAG" secondAttribute="trailing" constant="124" id="3nj-O7-Ss5"/>
+                            <constraint firstItem="fBE-iJ-fAG" firstAttribute="top" secondItem="X6F-dy-Uvv" secondAttribute="topMargin" constant="585" id="4fI-E1-DPY"/>
+                            <constraint firstItem="fBE-iJ-fAG" firstAttribute="leading" secondItem="c17-Ed-jwV" secondAttribute="leading" constant="123" id="5B8-pj-cUH"/>
+                            <constraint firstItem="vAB-YY-hAr" firstAttribute="leading" secondItem="c17-Ed-jwV" secondAttribute="leading" constant="158" id="6f6-m4-aHI"/>
+                            <constraint firstItem="vAB-YY-hAr" firstAttribute="top" secondItem="X6F-dy-Uvv" secondAttribute="topMargin" constant="585" id="8wP-cW-2g8"/>
+                            <constraint firstItem="DWe-zt-8gR" firstAttribute="top" secondItem="X6F-dy-Uvv" secondAttribute="topMargin" constant="38" id="CXx-A6-yK7"/>
+                            <constraint firstItem="c17-Ed-jwV" firstAttribute="trailing" secondItem="DWe-zt-8gR" secondAttribute="trailing" constant="84" id="GGf-AE-EC7"/>
+                            <constraint firstItem="WOB-R0-VwL" firstAttribute="top" secondItem="X6F-dy-Uvv" secondAttribute="topMargin" constant="138" id="Gdz-oB-GXa"/>
+                            <constraint firstItem="WOB-R0-VwL" firstAttribute="leading" secondItem="c17-Ed-jwV" secondAttribute="leading" constant="67" id="Jm7-Hp-gBo"/>
+                            <constraint firstItem="c17-Ed-jwV" firstAttribute="trailing" secondItem="WOB-R0-VwL" secondAttribute="trailing" constant="68" id="aCP-u8-xAz"/>
+                            <constraint firstItem="DWe-zt-8gR" firstAttribute="leading" secondItem="c17-Ed-jwV" secondAttribute="leading" constant="51" id="mVd-hB-iAW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="c17-Ed-jwV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxi-by-3HX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2117.5999999999999" y="-1185.1574212893554"/>
+        </scene>
+        <!--Bekasi Map View Controller-->
+        <scene sceneID="7pm-1I-fwC">
+            <objects>
+                <viewController id="TSm-U9-MtJ" customClass="BekasiMapViewController" customModule="Wisata" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Lb-Eh-xOj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tIi-6Q-Dce">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="Bng-U3-MHG"/>
+                                    <constraint firstAttribute="width" constant="375" id="mBn-dK-Uvy"/>
+                                </constraints>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="tDj-0Z-UQh">
+                                <rect key="frame" x="125" y="605" width="124" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="124" id="Q83-ao-84c"/>
+                                    <constraint firstAttribute="height" constant="42" id="YRI-NB-oVb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LnE-Uq-l9u">
+                                <rect key="frame" x="157" y="605" width="62" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="I1G-zQ-vEm"/>
+                                    <constraint firstAttribute="height" constant="42" id="yCk-Di-7w7"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="qtF-4y-nno" kind="show" id="RoM-iJ-VeP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LnE-Uq-l9u" firstAttribute="leading" secondItem="Hh8-E3-8VT" secondAttribute="leading" constant="157" id="1Ob-LV-jME"/>
+                            <constraint firstItem="LnE-Uq-l9u" firstAttribute="top" secondItem="6Lb-Eh-xOj" secondAttribute="topMargin" constant="585" id="4uy-fo-s6g"/>
+                            <constraint firstItem="tDj-0Z-UQh" firstAttribute="leading" secondItem="Hh8-E3-8VT" secondAttribute="leading" constant="125" id="AYf-oK-Zyx"/>
+                            <constraint firstItem="tIi-6Q-Dce" firstAttribute="bottom" secondItem="Hh8-E3-8VT" secondAttribute="bottom" id="Gnx-qK-CDU"/>
+                            <constraint firstItem="tDj-0Z-UQh" firstAttribute="top" secondItem="6Lb-Eh-xOj" secondAttribute="topMargin" constant="585" id="J9Z-JR-yNj"/>
+                            <constraint firstItem="tIi-6Q-Dce" firstAttribute="trailing" secondItem="Hh8-E3-8VT" secondAttribute="trailing" id="S9n-vU-ivd"/>
+                            <constraint firstItem="Hh8-E3-8VT" firstAttribute="trailing" secondItem="LnE-Uq-l9u" secondAttribute="trailing" constant="156" id="Sso-O5-f7X"/>
+                            <constraint firstItem="tIi-6Q-Dce" firstAttribute="leading" secondItem="Hh8-E3-8VT" secondAttribute="leading" id="Y6g-gw-9NU"/>
+                            <constraint firstItem="Hh8-E3-8VT" firstAttribute="trailing" secondItem="tDj-0Z-UQh" secondAttribute="trailing" constant="126" id="YUn-at-aPa"/>
+                            <constraint firstItem="tIi-6Q-Dce" firstAttribute="top" secondItem="6Lb-Eh-xOj" secondAttribute="top" id="qfa-ID-ZGp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Hh8-E3-8VT"/>
+                    </view>
+                    <connections>
+                        <outlet property="BekasiMap" destination="tIi-6Q-Dce" id="3Or-8V-6MT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IYH-2q-40z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2448.8000000000002" y="-1859.8200899550227"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yyM-YD-2sB">
+            <objects>
+                <viewController id="385-VM-RH3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xaw-Rt-cWr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HARGA TIKET JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="lWd-Xq-Q9q">
+                                <rect key="frame" x="67" y="34" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Ulq-bc-auT"/>
+                                    <constraint firstAttribute="width" constant="240" id="W12-zO-f2A"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="u58-Qr-30q">
+                                <rect key="frame" x="88" y="150" width="198" height="367"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="198" id="3Di-bV-USK"/>
+                                    <constraint firstAttribute="height" constant="367" id="gWS-Ec-Ve4"/>
+                                </constraints>
+                                <string key="text">Mulai umur 1 th dengan tinggi sampai 140 cm	Rp 50.000
+Tinggi badan 140 cm keatas	Rp 60.000
+*Harga dapat berubah sewaktu-waktu.
+
+Dengan membayar biaya masuk dunia salju tersebut sudah termasuk peminjaman jaket dan pengunjung bisa bermain sepuasnya disana tanpa batasan waktu.
+
+Jam Operasional Dunia Salju Bekasi Square
+Jam operasional atau jam buka snow world international bekasi dibuka setiap hari dari hari Senin s/d Minggu mulai pukul 11.00-21.00 WIB.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="S4u-6Q-Xc8">
+                                <rect key="frame" x="129" y="606" width="109" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="eXV-Pi-MGd"/>
+                                    <constraint firstAttribute="width" constant="109" id="lNj-Jn-Rkz"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yX8-PZ-Fdt">
+                                <rect key="frame" x="152" y="606" width="68" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="68" id="eFh-pi-ajX"/>
+                                    <constraint firstAttribute="height" constant="41" id="wOW-Cd-gzV"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="qtF-4y-nno" kind="show" id="YuZ-5d-RTe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yX8-PZ-Fdt" firstAttribute="leading" secondItem="4On-Wf-jZX" secondAttribute="leading" constant="152" id="5oe-s5-ymU"/>
+                            <constraint firstItem="u58-Qr-30q" firstAttribute="top" secondItem="Xaw-Rt-cWr" secondAttribute="topMargin" constant="130" id="ASk-Wg-8KW"/>
+                            <constraint firstItem="lWd-Xq-Q9q" firstAttribute="leading" secondItem="4On-Wf-jZX" secondAttribute="leading" constant="67" id="Gw0-3u-cPZ"/>
+                            <constraint firstItem="4On-Wf-jZX" firstAttribute="trailing" secondItem="yX8-PZ-Fdt" secondAttribute="trailing" constant="155" id="KI9-jX-N37"/>
+                            <constraint firstItem="u58-Qr-30q" firstAttribute="leading" secondItem="4On-Wf-jZX" secondAttribute="leading" constant="88" id="Mbn-Ca-vE5"/>
+                            <constraint firstItem="4On-Wf-jZX" firstAttribute="trailing" secondItem="S4u-6Q-Xc8" secondAttribute="trailing" constant="137" id="NxB-lg-IhX"/>
+                            <constraint firstItem="S4u-6Q-Xc8" firstAttribute="top" secondItem="Xaw-Rt-cWr" secondAttribute="topMargin" constant="586" id="VVJ-hV-pfW"/>
+                            <constraint firstItem="S4u-6Q-Xc8" firstAttribute="leading" secondItem="4On-Wf-jZX" secondAttribute="leading" constant="129" id="e29-Ar-kHA"/>
+                            <constraint firstItem="lWd-Xq-Q9q" firstAttribute="top" secondItem="Xaw-Rt-cWr" secondAttribute="topMargin" constant="14" id="uR3-u4-p0H"/>
+                            <constraint firstItem="yX8-PZ-Fdt" firstAttribute="top" secondItem="Xaw-Rt-cWr" secondAttribute="topMargin" constant="586" id="vKp-dU-HrQ"/>
+                            <constraint firstItem="4On-Wf-jZX" firstAttribute="trailing" secondItem="u58-Qr-30q" secondAttribute="trailing" constant="89" id="wTQ-3E-gaE"/>
+                            <constraint firstItem="4On-Wf-jZX" firstAttribute="trailing" secondItem="lWd-Xq-Q9q" secondAttribute="trailing" constant="68" id="zuF-bG-Fc8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4On-Wf-jZX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VW9-e8-PJl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2780" y="-1195.0524737631185"/>
+        </scene>
+        <!--Bekasi Video View Controller-->
+        <scene sceneID="DU7-OE-Lg5">
+            <objects>
+                <viewController id="qtF-4y-nno" customClass="BekasiVideoViewController" customModule="Wisata" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m8C-ox-6KV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bekasi" translatesAutoresizingMaskIntoConstraints="NO" id="3Tf-55-fSx">
+                                <rect key="frame" x="67" y="50" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="I5I-2t-z2Z"/>
+                                    <constraint firstAttribute="height" constant="128" id="ztU-gI-lDg"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="0tO-hm-tOU">
+                                <rect key="frame" x="130" y="606" width="115" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="RM1-vX-1gb"/>
+                                    <constraint firstAttribute="width" constant="115" id="fgx-Tc-bAe"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izv-xx-b4V">
+                                <rect key="frame" x="158" y="606" width="61" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="jt6-8M-TqX"/>
+                                    <constraint firstAttribute="height" constant="41" id="prv-Yj-t5u"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="v27-u7-Sci" kind="show" id="G9x-8r-kLK"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DES2JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="QpN-Gv-OVE">
+                                <rect key="frame" x="50" y="245" width="257" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="257" id="B09-48-3ac"/>
+                                    <constraint firstAttribute="height" constant="77" id="gvq-fO-Zfm"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HARGA TIKET JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="d4z-qF-bjJ">
+                                <rect key="frame" x="50" y="330" width="257" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="257" id="Sci-fo-r6k"/>
+                                    <constraint firstAttribute="height" constant="77" id="kBj-mN-5FQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOKASIJOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="dDI-5G-APU">
+                                <rect key="frame" x="52" y="415" width="255" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="255" id="Oh5-Xz-h1c"/>
+                                    <constraint firstAttribute="height" constant="76" id="dHg-6X-fRW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JOGJA VIDEO" translatesAutoresizingMaskIntoConstraints="NO" id="sEw-o9-8rD">
+                                <rect key="frame" x="55" y="485" width="252" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="Bjs-fg-5A5"/>
+                                    <constraint firstAttribute="width" constant="252" id="qI9-qu-Npv"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8f-Rj-gk3">
+                                <rect key="frame" x="92" y="257" width="198" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EOg-bb-BS1"/>
+                                    <constraint firstAttribute="width" constant="198" id="iaH-wY-g1K"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="ERD-wP-4AM" kind="show" id="fxy-Lm-tEm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYT-ij-UOF">
+                                <rect key="frame" x="92" y="344" width="198" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="198" id="3Hg-qy-RVQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="4Y9-km-OBF"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="385-VM-RH3" kind="show" id="Ya5-JA-OCH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwD-a4-qph">
+                                <rect key="frame" x="92" y="499" width="198" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ls6-0Z-j8M"/>
+                                    <constraint firstAttribute="width" constant="198" id="nWk-pE-LK1"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="BekasiVideo:" destination="qtF-4y-nno" eventType="touchUpInside" id="rAK-95-1ip"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tn1-fV-ce3">
+                                <rect key="frame" x="92" y="428" width="198" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="198" id="B2h-r4-Qnm"/>
+                                    <constraint firstAttribute="height" constant="30" id="and-3b-Icl"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="TSm-U9-MtJ" kind="show" id="pry-1W-TYs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="g8f-Rj-gk3" firstAttribute="top" secondItem="m8C-ox-6KV" secondAttribute="topMargin" constant="237" id="0K3-fP-3GO"/>
+                            <constraint firstItem="dDI-5G-APU" firstAttribute="top" secondItem="m8C-ox-6KV" secondAttribute="topMargin" constant="395" id="47q-Y0-9Gq"/>
+                            <constraint firstItem="d4z-qF-bjJ" firstAttribute="leading" secondItem="Ubo-3u-XpD" secondAttribute="leading" constant="50" id="6m8-9K-ksr"/>
+                            <constraint firstItem="cwD-a4-qph" firstAttribute="leading" secondItem="Ubo-3u-XpD" secondAttribute="leading" constant="92" id="8Ld-2Y-zyl"/>
+                            <constraint firstItem="Ubo-3u-XpD" firstAttribute="trailing" secondItem="0tO-hm-tOU" secondAttribute="trailing" constant="130" id="9gu-KB-6P2"/>
+                            <constraint firstItem="Ubo-3u-XpD" firstAttribute="trailing" secondItem="QpN-Gv-OVE" secondAttribute="trailing" constant="68" id="A2J-ag-iCE"/>
+                            <constraint firstItem="Izv-xx-b4V" firstAttribute="leading" secondItem="Ubo-3u-XpD" secondAttribute="leading" constant="158" id="AUU-h1-i0n"/>
+                            <constraint firstItem="Izv-xx-b4V" firstAttribute="top" secondItem="m8C-ox-6KV" secondAttribute="topMargin" constant="586" id="BM3-FA-d7I"/>
+                            <constraint firstItem="Ubo-3u-XpD" firstAttribute="trailing" secondItem="d4z-qF-bjJ" secondAttribute="trailing" constant="68" id="Cvk-zC-o0o"/>
+                            <constraint firstItem="sEw-o9-8rD" firstAttribute="top" secondItem="m8C-ox-6KV" secondAttribute="topMargin" constant="465" id="E2t-YL-Shc"/>
+                            <constraint firstItem="d4z-qF-bjJ" firstAttribute="top" secondItem="m8C-ox-6KV" secondAttribute="topMargin" constant="310" id="HMc-uL-aKE"/>
+                            <constraint firstItem="0tO-hm-tOU" firstAttribute="top" secondItem="m8C-ox-6KV" secondAttribute="topMargin" constant="586" id="NVL-ei-KYO"/>
+                            <constraint firstItem="0tO-hm-tOU" firstAttribute="leading" secondItem="Ubo-3u-XpD" secondAttribute="leading" constant="130" id="OVm-Ne-HKA"/>
+                            <constraint firstItem="3Tf-55-fSx" firstAttribute="leading" secondItem="Ubo-3u-XpD" secondAttribute="leading" constant="67" id="Ruw-Is-TFs"/>
+                            <constraint firstItem="3Tf-55-fSx" firstAttribute="top" secondItem="m8C-ox-6KV" secondAttribute="topMargin" constant="30" id="SWS-wm-37x"/>
+                            <constraint firstItem="sEw-o9-8rD" firstAttribute="leading" secondItem="Ubo-3u-XpD" secondAttribute="leading" constant="55" id="Ths-N5-jwh"/>
+                            <constraint firstItem="Ubo-3u-XpD" firstAttribute="trailing" secondItem="Izv-xx-b4V" secondAttribute="trailing" constant="156" id="W2K-qL-Z9Y"/>
+                            <constraint firstItem="NYT-ij-UOF" firstAttribute="leading" secondItem="Ubo-3u-XpD" secondAttribute="leading" constant="92" id="WhP-Ui-Dtx"/>
+                            <constraint firstItem="Ubo-3u-XpD" firstAttribute="trailing" secondItem="3Tf-55-fSx" secondAttribute="trailing" constant="68" id="a5n-jw-eyC"/>
+                            <constraint firstItem="Ubo-3u-XpD" firstAttribute="trailing" secondItem="cwD-a4-qph" secondAttribute="trailing" constant="85" id="ahR-Em-BKH"/>
+                            <constraint firstItem="QpN-Gv-OVE" firstAttribute="top" secondItem="m8C-ox-6KV" secondAttribute="topMargin" constant="225" id="bLp-D6-UAs"/>
+                            <constraint firstItem="tn1-fV-ce3" firstAttribute="leading" secondItem="Ubo-3u-XpD" secondAttribute="leading" constant="92" id="brq-Ez-u18"/>
+                            <constraint firstItem="NYT-ij-UOF" firstAttribute="top" secondItem="m8C-ox-6KV" secondAttribute="topMargin" constant="324" id="cKY-oQ-76y"/>
+                            <constraint firstItem="Ubo-3u-XpD" firstAttribute="trailing" secondItem="tn1-fV-ce3" secondAttribute="trailing" constant="85" id="eQR-tv-sgr"/>
+                            <constraint firstItem="Ubo-3u-XpD" firstAttribute="trailing" secondItem="sEw-o9-8rD" secondAttribute="trailing" constant="68" id="fDd-9e-Fof"/>
+                            <constraint firstItem="g8f-Rj-gk3" firstAttribute="leading" secondItem="Ubo-3u-XpD" secondAttribute="leading" constant="92" id="iTQ-s7-Mvc"/>
+                            <constraint firstItem="tn1-fV-ce3" firstAttribute="top" secondItem="m8C-ox-6KV" secondAttribute="topMargin" constant="408" id="k2r-lb-6hX"/>
+                            <constraint firstItem="cwD-a4-qph" firstAttribute="top" secondItem="m8C-ox-6KV" secondAttribute="topMargin" constant="479" id="ogf-mH-7Ng"/>
+                            <constraint firstItem="Ubo-3u-XpD" firstAttribute="trailing" secondItem="NYT-ij-UOF" secondAttribute="trailing" constant="85" id="r3G-5o-47F"/>
+                            <constraint firstItem="dDI-5G-APU" firstAttribute="leading" secondItem="Ubo-3u-XpD" secondAttribute="leading" constant="52" id="r6h-dv-XA9"/>
+                            <constraint firstItem="Ubo-3u-XpD" firstAttribute="trailing" secondItem="g8f-Rj-gk3" secondAttribute="trailing" constant="85" id="tNs-Q6-IIE"/>
+                            <constraint firstItem="QpN-Gv-OVE" firstAttribute="leading" secondItem="Ubo-3u-XpD" secondAttribute="leading" constant="50" id="vcF-yx-qe2"/>
+                            <constraint firstItem="Ubo-3u-XpD" firstAttribute="trailing" secondItem="dDI-5G-APU" secondAttribute="trailing" constant="68" id="vvn-Rl-RSt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ubo-3u-XpD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="775-f7-Wqi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1504.8" y="-530.28485757121439"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="J0F-eK-OST">
+            <objects>
+                <viewController id="ffC-Uz-qnf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aCU-LU-wsb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HARGA TIKET JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="03B-op-uyq">
+                                <rect key="frame" x="67" y="32" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Kqv-q8-KKh"/>
+                                    <constraint firstAttribute="height" constant="128" id="a4S-LT-g7p"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vZH-jR-DRM">
+                                <rect key="frame" x="74" y="125" width="227" height="464"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="464" id="Gwn-Q3-wLl"/>
+                                    <constraint firstAttribute="width" constant="227" id="Xp4-Gt-frW"/>
+                                </constraints>
+                                <mutableString key="text">
+TARIF HARI KERJA
+Jenis Jasa Wisata	Tarif
+Pengunjung Nusantara	Rp20.000
+Pengunjung Mancanegara	Rp200.000
+Kendaraan Roda 2 (Motor)	Rp12.000
+Kendaraan Roda 4 (Mobil)	Rp25.000
+Kendaraan Roda 6 (Bus)	Rp110.000
+Sepeda	Rp7.000
+ 
+
+TARIF HARI LIBUR
+Jenis Jasa Wisata	Tarif
+Pengunjung Nusantara	Rp30.000
+Pengunjung Mancanegara	Rp300.000
+Kendaraan Roda 2 (Motor)	Rp17.000
+Kendaraan Roda 4 (Mobil)	Rp35.000
+Kendaraan Roda 6 (Bus)	Rp150.000
+Sepeda	Rp10.000
+ 
+
+Jasa Angkutan Wisata Ontang Anting/Shuttle Bus
+Jayagiri – Kawah Ratu (PP)	Rp7.000
+ 
+
+Untuk Biaya Pengamanan + Kebersihan
+Jenis Kegiatan	Tarif Jasa Wisata
+Foto Pernikahan	Rp500.000	/hari
+Shooting Video Individu/company	Rp800.000	/hari
+Shooting acara komersil	Rp2.000.000	/hari
+Rp1.800.000	&gt; 1 hari/hari
+Jawa Wisata Stand 4×4 m	Rp500.000	/hari
+Umbul-umbul	Rp30.000	/hari
+Spanduk	Rp50.000	/hari
+Baliho	Rp100.000	/hari</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="KGJ-k5-0BY">
+                                <rect key="frame" x="137" y="610" width="101" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="9F3-7e-nmz"/>
+                                    <constraint firstAttribute="width" constant="101" id="Dp3-nN-l54"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOR-IA-5S7">
+                                <rect key="frame" x="160" y="613" width="55" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Uy4-TJ-U6F"/>
+                                    <constraint firstAttribute="width" constant="55" id="a23-cN-HNC"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="A4o-Mr-q4D" kind="show" id="dGk-Sw-aty"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KGJ-k5-0BY" firstAttribute="top" secondItem="aCU-LU-wsb" secondAttribute="topMargin" constant="590" id="4xg-q6-VTf"/>
+                            <constraint firstItem="03B-op-uyq" firstAttribute="leading" secondItem="dak-Ye-E7c" secondAttribute="leading" constant="67" id="75s-bV-xjy"/>
+                            <constraint firstItem="UOR-IA-5S7" firstAttribute="top" secondItem="aCU-LU-wsb" secondAttribute="topMargin" constant="593" id="BP7-do-hdJ"/>
+                            <constraint firstItem="dak-Ye-E7c" firstAttribute="trailing" secondItem="UOR-IA-5S7" secondAttribute="trailing" constant="160" id="D0f-a9-Pti"/>
+                            <constraint firstItem="vZH-jR-DRM" firstAttribute="leading" secondItem="dak-Ye-E7c" secondAttribute="leading" constant="74" id="IfI-vJ-qN0"/>
+                            <constraint firstItem="dak-Ye-E7c" firstAttribute="trailing" secondItem="KGJ-k5-0BY" secondAttribute="trailing" constant="137" id="IgY-hm-eqr"/>
+                            <constraint firstItem="dak-Ye-E7c" firstAttribute="trailing" secondItem="vZH-jR-DRM" secondAttribute="trailing" constant="74" id="NsQ-4m-Zic"/>
+                            <constraint firstItem="dak-Ye-E7c" firstAttribute="trailing" secondItem="03B-op-uyq" secondAttribute="trailing" constant="68" id="SSp-UT-XRF"/>
+                            <constraint firstItem="KGJ-k5-0BY" firstAttribute="leading" secondItem="dak-Ye-E7c" secondAttribute="leading" constant="137" id="VfO-AG-cUb"/>
+                            <constraint firstItem="03B-op-uyq" firstAttribute="top" secondItem="aCU-LU-wsb" secondAttribute="topMargin" constant="12" id="Ymv-m4-kSS"/>
+                            <constraint firstItem="vZH-jR-DRM" firstAttribute="top" secondItem="aCU-LU-wsb" secondAttribute="topMargin" constant="105" id="bWk-HS-1BA"/>
+                            <constraint firstItem="UOR-IA-5S7" firstAttribute="leading" secondItem="dak-Ye-E7c" secondAttribute="leading" constant="160" id="grQ-rp-MgP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dak-Ye-E7c"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8fP-pF-jRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-500" y="783.95802098950526"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Yph-Vh-DZG">
+            <objects>
+                <viewController id="Pun-JM-hdI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3yp-nj-hs0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DES2JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="9ug-9Z-UJk">
+                                <rect key="frame" x="52" y="33" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="4N4-Nx-Hfe"/>
+                                    <constraint firstAttribute="width" constant="240" id="F30-3i-S2B"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xJy-o4-kfe">
+                                <rect key="frame" x="47" y="169" width="280" height="411"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="H7n-3A-TZ1"/>
+                                    <constraint firstAttribute="height" constant="411" id="xdy-ZG-Kwr"/>
+                                </constraints>
+                                <mutableString key="text">Tangkuban perahu adalah gunung api aktif, terletak 30 km sebelah utara kota Bandung ke arah Lembang. Ini adalah satu-satunya kawah di Indonesia yang dapat Anda kendarai sampai ke tepiannya. Gunung Tangkuban Perahu memiliki bentuk yang khas, dan terlihat seperti "perahu terbalik". Di sini Anda akan disambut oleh asap belerang yang kawah terus memancarkan meskipun gunung berapi tidak aktif. 
+
+Tangkuban Perahu memiliki peran yang signifikan terutama dalam pengembangan Dataran Tinggi Parahyangan (tanah Tuhan) di sekitarnya. Letusannya sangat berkontribusi pada pembentukan dan kesuburan perbukitan di utara Bandung ketika melalui aliran lava membawa batu-batu besar ke lembah-lembah, ini membentuk tebing-tebing besar di mana air terjun melompat membentuk danau yang saat ini meliputi dataran Bandung.
+
+Terletak di dataran tinggi hanya di pinggiran kota Bandung, Kawah Tangkuban Perahu pasti tempat yang sempurna untuk menikmati udara sejuk dan pemandangan santai setelah serangkaian kegiatan belanja. Untuk sensasi yang menyegarkan, pengunjung dapat melanjutkan perjalanan ke Mata Air Panas Revitalisasi Ciater terdekat.
+
+ 
+
+Kesana
+
+Tangkuban Perahu adalah 90 menit berkendara dari Bandung pada hari kerja. Cara termudah untuk sampai ke sana adalah dengan bergabung dengan tur atau menyewa mobil. Namun, jika Anda ingin melakukan perjalanan petualangan, Anda dapat menggunakan Colt Subang melalui Lembang dari terminal minibus Bandung di depan stasiun kereta ke pintu masuk taman Tangkuban Perahu. 
+
+Ada minibus, yang membawa Anda ke puncak. Atau, Anda bisa berjalan dari gerbang di jalan utama. Ini adalah kenaikan 4,5 km di sepanjang jalan atau Anda dapat mengambil jalan samping yang lebih menarik yang melewati Kawah Domas. Ini adalah satu jam berjalan sangat curam melalui hutan dan lebih baik ditangani dari atas ke bawah. Ini dimulai tepat di belakang pusat informasi dan mudah diikuti.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="usn-67-MdK">
+                                <rect key="frame" x="118" y="612" width="138" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Bvm-EA-uN0"/>
+                                    <constraint firstAttribute="width" constant="138" id="OzN-Vp-3jf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nkC-OE-TWn">
+                                <rect key="frame" x="161" y="612" width="57" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="BYN-Fx-rH5"/>
+                                    <constraint firstAttribute="width" constant="57" id="taw-l6-eb2"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="A4o-Mr-q4D" kind="show" id="Rdu-tc-1IF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9ug-9Z-UJk" firstAttribute="leading" secondItem="tgU-JW-8lq" secondAttribute="leading" constant="52" id="3fG-3k-GWB"/>
+                            <constraint firstItem="nkC-OE-TWn" firstAttribute="top" secondItem="3yp-nj-hs0" secondAttribute="topMargin" constant="592" id="53O-EB-Ol3"/>
+                            <constraint firstItem="tgU-JW-8lq" firstAttribute="trailing" secondItem="xJy-o4-kfe" secondAttribute="trailing" constant="48" id="BLa-hE-ciU"/>
+                            <constraint firstItem="usn-67-MdK" firstAttribute="top" secondItem="3yp-nj-hs0" secondAttribute="topMargin" constant="592" id="I2y-iP-vIS"/>
+                            <constraint firstItem="xJy-o4-kfe" firstAttribute="leading" secondItem="tgU-JW-8lq" secondAttribute="leading" constant="47" id="Mqy-QQ-a5m"/>
+                            <constraint firstItem="usn-67-MdK" firstAttribute="leading" secondItem="tgU-JW-8lq" secondAttribute="leading" constant="118" id="Wgp-l5-T4a"/>
+                            <constraint firstItem="tgU-JW-8lq" firstAttribute="trailing" secondItem="9ug-9Z-UJk" secondAttribute="trailing" constant="83" id="ZCl-eq-duW"/>
+                            <constraint firstItem="tgU-JW-8lq" firstAttribute="trailing" secondItem="usn-67-MdK" secondAttribute="trailing" constant="119" id="haz-SN-uQm"/>
+                            <constraint firstItem="tgU-JW-8lq" firstAttribute="trailing" secondItem="nkC-OE-TWn" secondAttribute="trailing" constant="157" id="ip6-8I-ojf"/>
+                            <constraint firstItem="xJy-o4-kfe" firstAttribute="top" secondItem="3yp-nj-hs0" secondAttribute="topMargin" constant="149" id="oJW-02-H14"/>
+                            <constraint firstItem="9ug-9Z-UJk" firstAttribute="top" secondItem="3yp-nj-hs0" secondAttribute="topMargin" constant="13" id="r4m-cI-IJV"/>
+                            <constraint firstItem="nkC-OE-TWn" firstAttribute="leading" secondItem="tgU-JW-8lq" secondAttribute="leading" constant="161" id="wll-BI-eJw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tgU-JW-8lq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cty-Nf-33g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="780.35982008995506"/>
+        </scene>
+        <!--Bandung Map View Controller-->
+        <scene sceneID="JEg-AF-sih">
+            <objects>
+                <viewController id="kok-bl-9g8" customClass="BandungMapViewController" customModule="Wisata" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b92-Pa-tdM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Fei-WT-PGb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Wch-t0-2CM"/>
+                                    <constraint firstAttribute="height" constant="667" id="la7-Qt-JQp"/>
+                                </constraints>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="APv-R1-Q0B">
+                                <rect key="frame" x="125" y="607" width="125" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="WXi-ux-41V"/>
+                                    <constraint firstAttribute="width" constant="125" id="vhj-mS-XV8"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khM-P5-qRr">
+                                <rect key="frame" x="155" y="607" width="60" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="8e1-yj-hDC"/>
+                                    <constraint firstAttribute="height" constant="40" id="cIm-Fb-fvE"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="A4o-Mr-q4D" kind="show" id="brM-j4-lBH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="S5Z-qC-icQ" firstAttribute="trailing" secondItem="khM-P5-qRr" secondAttribute="trailing" constant="160" id="8Qd-Lc-2CQ"/>
+                            <constraint firstItem="Fei-WT-PGb" firstAttribute="top" secondItem="b92-Pa-tdM" secondAttribute="top" id="8aU-11-Gul"/>
+                            <constraint firstItem="khM-P5-qRr" firstAttribute="leading" secondItem="S5Z-qC-icQ" secondAttribute="leading" constant="155" id="AuS-Ld-qCN"/>
+                            <constraint firstItem="Fei-WT-PGb" firstAttribute="leading" secondItem="S5Z-qC-icQ" secondAttribute="leading" id="B1s-9d-cFF"/>
+                            <constraint firstItem="khM-P5-qRr" firstAttribute="top" secondItem="b92-Pa-tdM" secondAttribute="topMargin" constant="587" id="Ep3-s7-Ok8"/>
+                            <constraint firstItem="APv-R1-Q0B" firstAttribute="top" secondItem="b92-Pa-tdM" secondAttribute="topMargin" constant="587" id="GH7-vr-Ur6"/>
+                            <constraint firstItem="Fei-WT-PGb" firstAttribute="trailing" secondItem="S5Z-qC-icQ" secondAttribute="trailing" id="Gfa-91-ods"/>
+                            <constraint firstItem="APv-R1-Q0B" firstAttribute="leading" secondItem="S5Z-qC-icQ" secondAttribute="leading" constant="125" id="bx2-aF-b5a"/>
+                            <constraint firstItem="S5Z-qC-icQ" firstAttribute="trailing" secondItem="APv-R1-Q0B" secondAttribute="trailing" constant="125" id="cL3-3J-dA8"/>
+                            <constraint firstItem="Fei-WT-PGb" firstAttribute="bottom" secondItem="S5Z-qC-icQ" secondAttribute="bottom" id="myk-TK-5vm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="S5Z-qC-icQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapKit" destination="Fei-WT-PGb" id="gB8-km-VfK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rwW-4h-Cx4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-186.40000000000001" y="1445.1274362818592"/>
+        </scene>
+        <!--Bandung Video View Controller-->
+        <scene sceneID="bIM-vF-7YY">
+            <objects>
+                <viewController id="A4o-Mr-q4D" customClass="BandungVideoViewController" customModule="Wisata" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qdC-WS-zBa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KOTA BANDUNG" translatesAutoresizingMaskIntoConstraints="NO" id="OUn-8B-MhJ">
+                                <rect key="frame" x="67" y="46" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Rca-Tk-Tra"/>
+                                    <constraint firstAttribute="height" constant="128" id="qT0-u3-kkT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="LZ2-qM-071">
+                                <rect key="frame" x="130" y="606" width="115" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Nrq-Ja-7eM"/>
+                                    <constraint firstAttribute="width" constant="115" id="nDA-uM-RNB"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mea-Ov-zQN">
+                                <rect key="frame" x="153" y="606" width="69" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="WdN-cW-1mY"/>
+                                    <constraint firstAttribute="width" constant="69" id="raY-cQ-9dr"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="v27-u7-Sci" kind="show" id="ABu-H2-lmy"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JOGJA DES" translatesAutoresizingMaskIntoConstraints="NO" id="p1o-P2-3Ff">
+                                <rect key="frame" x="67" y="222" width="240" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="VAo-mU-tR8"/>
+                                    <constraint firstAttribute="width" constant="240" id="bJO-6p-q3O"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HARGA TIKET JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="xrD-St-t4E">
+                                <rect key="frame" x="35" y="277" width="281" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="281" id="IY5-x0-nDm"/>
+                                    <constraint firstAttribute="height" constant="79" id="sqk-v0-bQX"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOKASIJOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="Hcu-CT-QRf">
+                                <rect key="frame" x="38" y="343" width="278" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="278" id="G7g-nm-R1i"/>
+                                    <constraint firstAttribute="height" constant="79" id="GsQ-P3-bcg"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JOGJA VIDEO" translatesAutoresizingMaskIntoConstraints="NO" id="D1H-0Z-ngI">
+                                <rect key="frame" x="38" y="408" width="278" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="278" id="Or8-SB-YkD"/>
+                                    <constraint firstAttribute="height" constant="74" id="gG1-Bg-Ybi"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qI-FJ-gfM">
+                                <rect key="frame" x="67" y="230" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="GlO-5g-jGa"/>
+                                    <constraint firstAttribute="height" constant="30" id="nXO-Lu-qcx"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="Pun-JM-hdI" kind="show" id="mVN-OE-BzA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPi-2o-bfd">
+                                <rect key="frame" x="75" y="291" width="222" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="222" id="TRM-zY-fdc"/>
+                                    <constraint firstAttribute="height" constant="30" id="Wq5-lE-xnd"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="ffC-Uz-qnf" kind="show" id="dtM-cl-KRE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6t3-rK-Nfu">
+                                <rect key="frame" x="78" y="364" width="218" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="218" id="Gl2-ot-s0P"/>
+                                    <constraint firstAttribute="height" constant="30" id="UGW-yS-Zoe"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="kok-bl-9g8" kind="show" id="vPV-Xb-NFD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3IW-KS-CJ4">
+                                <rect key="frame" x="83" y="420" width="213" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GDQ-r5-24w"/>
+                                    <constraint firstAttribute="width" constant="213" id="Naa-Hg-qmB"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="BandungVideo:" destination="A4o-Mr-q4D" eventType="touchUpInside" id="pxD-xe-hz7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="D1H-0Z-ngI" firstAttribute="top" secondItem="qdC-WS-zBa" secondAttribute="topMargin" constant="388" id="1Nv-gA-j9Q"/>
+                            <constraint firstItem="LZ2-qM-071" firstAttribute="top" secondItem="qdC-WS-zBa" secondAttribute="topMargin" constant="586" id="1UQ-Wf-4w8"/>
+                            <constraint firstItem="afJ-06-ipw" firstAttribute="trailing" secondItem="LZ2-qM-071" secondAttribute="trailing" constant="130" id="3xY-6K-oh9"/>
+                            <constraint firstItem="D1H-0Z-ngI" firstAttribute="leading" secondItem="afJ-06-ipw" secondAttribute="leading" constant="38" id="4Vq-WZ-bWg"/>
+                            <constraint firstItem="afJ-06-ipw" firstAttribute="trailing" secondItem="xrD-St-t4E" secondAttribute="trailing" constant="59" id="8bt-oS-suJ"/>
+                            <constraint firstItem="xrD-St-t4E" firstAttribute="leading" secondItem="afJ-06-ipw" secondAttribute="leading" constant="35" id="BLz-Fr-VeS"/>
+                            <constraint firstItem="afJ-06-ipw" firstAttribute="trailing" secondItem="Hcu-CT-QRf" secondAttribute="trailing" constant="59" id="HQ9-k5-sCI"/>
+                            <constraint firstItem="5qI-FJ-gfM" firstAttribute="top" secondItem="qdC-WS-zBa" secondAttribute="topMargin" constant="210" id="JCR-cF-Ytb"/>
+                            <constraint firstItem="afJ-06-ipw" firstAttribute="trailing" secondItem="3IW-KS-CJ4" secondAttribute="trailing" constant="79" id="Ovm-pV-jWf"/>
+                            <constraint firstItem="jPi-2o-bfd" firstAttribute="top" secondItem="qdC-WS-zBa" secondAttribute="topMargin" constant="271" id="RFq-xB-xrD"/>
+                            <constraint firstItem="afJ-06-ipw" firstAttribute="trailing" secondItem="6t3-rK-Nfu" secondAttribute="trailing" constant="79" id="Rhr-Ba-iTA"/>
+                            <constraint firstItem="afJ-06-ipw" firstAttribute="trailing" secondItem="5qI-FJ-gfM" secondAttribute="trailing" constant="68" id="VRd-Nl-20a"/>
+                            <constraint firstItem="mea-Ov-zQN" firstAttribute="leading" secondItem="afJ-06-ipw" secondAttribute="leading" constant="153" id="VbP-rg-CPT"/>
+                            <constraint firstItem="LZ2-qM-071" firstAttribute="leading" secondItem="afJ-06-ipw" secondAttribute="leading" constant="130" id="WqP-vg-17b"/>
+                            <constraint firstItem="5qI-FJ-gfM" firstAttribute="leading" secondItem="afJ-06-ipw" secondAttribute="leading" constant="67" id="WtR-Mm-xK6"/>
+                            <constraint firstItem="afJ-06-ipw" firstAttribute="trailing" secondItem="mea-Ov-zQN" secondAttribute="trailing" constant="153" id="XLd-yD-czJ"/>
+                            <constraint firstItem="afJ-06-ipw" firstAttribute="trailing" secondItem="OUn-8B-MhJ" secondAttribute="trailing" constant="68" id="Y7G-Rd-DTs"/>
+                            <constraint firstItem="afJ-06-ipw" firstAttribute="trailing" secondItem="p1o-P2-3Ff" secondAttribute="trailing" constant="68" id="Yaz-Q6-uYk"/>
+                            <constraint firstItem="3IW-KS-CJ4" firstAttribute="leading" secondItem="afJ-06-ipw" secondAttribute="leading" constant="83" id="Zmi-Pg-l4b"/>
+                            <constraint firstItem="OUn-8B-MhJ" firstAttribute="top" secondItem="qdC-WS-zBa" secondAttribute="topMargin" constant="26" id="aEh-Fe-RDN"/>
+                            <constraint firstItem="afJ-06-ipw" firstAttribute="trailing" secondItem="jPi-2o-bfd" secondAttribute="trailing" constant="78" id="bag-2q-EP7"/>
+                            <constraint firstItem="p1o-P2-3Ff" firstAttribute="top" secondItem="qdC-WS-zBa" secondAttribute="topMargin" constant="202" id="dBt-b1-MSr"/>
+                            <constraint firstItem="p1o-P2-3Ff" firstAttribute="leading" secondItem="afJ-06-ipw" secondAttribute="leading" constant="67" id="hMY-Tw-OTL"/>
+                            <constraint firstItem="jPi-2o-bfd" firstAttribute="leading" secondItem="afJ-06-ipw" secondAttribute="leading" constant="75" id="hOY-ED-YWI"/>
+                            <constraint firstItem="Hcu-CT-QRf" firstAttribute="leading" secondItem="afJ-06-ipw" secondAttribute="leading" constant="38" id="hvg-Fd-4FF"/>
+                            <constraint firstItem="afJ-06-ipw" firstAttribute="trailing" secondItem="D1H-0Z-ngI" secondAttribute="trailing" constant="59" id="lfP-jA-PDZ"/>
+                            <constraint firstItem="6t3-rK-Nfu" firstAttribute="top" secondItem="qdC-WS-zBa" secondAttribute="topMargin" constant="344" id="ljg-cC-pWz"/>
+                            <constraint firstItem="xrD-St-t4E" firstAttribute="top" secondItem="qdC-WS-zBa" secondAttribute="topMargin" constant="257" id="loT-1U-3GH"/>
+                            <constraint firstItem="6t3-rK-Nfu" firstAttribute="leading" secondItem="afJ-06-ipw" secondAttribute="leading" constant="78" id="qaG-wG-zby"/>
+                            <constraint firstItem="OUn-8B-MhJ" firstAttribute="leading" secondItem="afJ-06-ipw" secondAttribute="leading" constant="67" id="roF-p3-pNC"/>
+                            <constraint firstItem="mea-Ov-zQN" firstAttribute="top" secondItem="qdC-WS-zBa" secondAttribute="topMargin" constant="586" id="tdB-Ss-tO9"/>
+                            <constraint firstItem="Hcu-CT-QRf" firstAttribute="top" secondItem="qdC-WS-zBa" secondAttribute="topMargin" constant="323" id="wYD-Zf-qr4"/>
+                            <constraint firstItem="3IW-KS-CJ4" firstAttribute="top" secondItem="qdC-WS-zBa" secondAttribute="topMargin" constant="400" id="yZY-NC-Y5Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="afJ-06-ipw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Frc-fV-ld0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="768.79999999999995" y="132.68365817091455"/>
+        </scene>
+        <!--Bogor Video View Controller-->
+        <scene sceneID="rB1-6V-LLc">
+            <objects>
+                <viewController id="rgZ-S6-8Ow" customClass="BogorVideoViewController" customModule="Wisata" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="te5-8R-6ho">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bogor" translatesAutoresizingMaskIntoConstraints="NO" id="thN-yh-fee">
+                                <rect key="frame" x="67" y="54" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="lT6-YW-i1S"/>
+                                    <constraint firstAttribute="height" constant="128" id="zN2-9s-KUf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="Qzf-5R-GtE">
+                                <rect key="frame" x="130" y="606" width="115" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="Fyy-D1-A3Z"/>
+                                    <constraint firstAttribute="height" constant="41" id="mbJ-PB-4Vu"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEa-A4-QRa">
+                                <rect key="frame" x="158" y="606" width="68" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="68" id="Mg5-KT-TyA"/>
+                                    <constraint firstAttribute="height" constant="41" id="sjb-jd-SaW"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="v27-u7-Sci" kind="show" id="OeU-HE-b8Y"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DES2JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="bnp-2y-DDw">
+                                <rect key="frame" x="58" y="204" width="240" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="Anu-VA-czF"/>
+                                    <constraint firstAttribute="width" constant="240" id="DSr-xj-Gmf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HARGA TIKET JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="cnb-8X-nhz">
+                                <rect key="frame" x="58" y="268" width="240" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="3kw-6o-MDj"/>
+                                    <constraint firstAttribute="height" constant="70" id="dIq-Pi-CLS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOKASIJOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="VBz-bl-GxJ">
+                                <rect key="frame" x="58" y="332" width="240" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="2bg-bH-tVj"/>
+                                    <constraint firstAttribute="width" constant="240" id="Fis-xp-h20"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JOGJA VIDEO" translatesAutoresizingMaskIntoConstraints="NO" id="9KP-hz-KL9">
+                                <rect key="frame" x="58" y="398" width="240" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="1MK-r8-7hF"/>
+                                    <constraint firstAttribute="width" constant="240" id="Cfg-MS-dpB"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgD-mr-GCc">
+                                <rect key="frame" x="94" y="346" width="189" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Qwr-4S-YU1"/>
+                                    <constraint firstAttribute="width" constant="189" id="x2K-bb-QBa"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="7Bg-dU-16O" kind="show" id="FzL-TE-6ty"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tat-ks-l6W">
+                                <rect key="frame" x="94" y="414" width="189" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="189" id="596-mt-xBd"/>
+                                    <constraint firstAttribute="height" constant="30" id="WUC-y0-ym3"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="BogorVideo:" destination="rgZ-S6-8Ow" eventType="touchUpInside" id="QBX-BS-nmn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qzf-5R-GtE" firstAttribute="leading" secondItem="Jew-5X-j3d" secondAttribute="leading" constant="130" id="20o-cd-PMU"/>
+                            <constraint firstItem="tat-ks-l6W" firstAttribute="leading" secondItem="Jew-5X-j3d" secondAttribute="leading" constant="94" id="29W-du-jKm"/>
+                            <constraint firstItem="cnb-8X-nhz" firstAttribute="leading" secondItem="Jew-5X-j3d" secondAttribute="leading" constant="58" id="3wg-rW-Rp5"/>
+                            <constraint firstItem="Jew-5X-j3d" firstAttribute="trailing" secondItem="Qzf-5R-GtE" secondAttribute="trailing" constant="130" id="BX0-Qs-bSt"/>
+                            <constraint firstItem="thN-yh-fee" firstAttribute="top" secondItem="te5-8R-6ho" secondAttribute="topMargin" constant="34" id="I6k-nU-SnK"/>
+                            <constraint firstItem="tat-ks-l6W" firstAttribute="top" secondItem="te5-8R-6ho" secondAttribute="topMargin" constant="394" id="IFI-Vk-zd3"/>
+                            <constraint firstItem="cnb-8X-nhz" firstAttribute="top" secondItem="te5-8R-6ho" secondAttribute="topMargin" constant="248" id="IuR-vO-vXb"/>
+                            <constraint firstItem="FgD-mr-GCc" firstAttribute="top" secondItem="te5-8R-6ho" secondAttribute="topMargin" constant="326" id="MfA-GX-ra0"/>
+                            <constraint firstItem="9KP-hz-KL9" firstAttribute="leading" secondItem="Jew-5X-j3d" secondAttribute="leading" constant="58" id="N1Q-V9-9Np"/>
+                            <constraint firstItem="thN-yh-fee" firstAttribute="leading" secondItem="Jew-5X-j3d" secondAttribute="leading" constant="67" id="NbL-hb-AQR"/>
+                            <constraint firstItem="FgD-mr-GCc" firstAttribute="leading" secondItem="Jew-5X-j3d" secondAttribute="leading" constant="94" id="Njz-4r-PXF"/>
+                            <constraint firstItem="VBz-bl-GxJ" firstAttribute="top" secondItem="te5-8R-6ho" secondAttribute="topMargin" constant="312" id="Nlf-mn-Hcd"/>
+                            <constraint firstItem="Jew-5X-j3d" firstAttribute="trailing" secondItem="VBz-bl-GxJ" secondAttribute="trailing" constant="77" id="QLx-24-qSZ"/>
+                            <constraint firstItem="Jew-5X-j3d" firstAttribute="trailing" secondItem="tat-ks-l6W" secondAttribute="trailing" constant="92" id="SQK-8y-M8P"/>
+                            <constraint firstItem="TEa-A4-QRa" firstAttribute="leading" secondItem="Jew-5X-j3d" secondAttribute="leading" constant="158" id="SeD-V0-JYI"/>
+                            <constraint firstItem="Jew-5X-j3d" firstAttribute="trailing" secondItem="thN-yh-fee" secondAttribute="trailing" constant="68" id="TGd-Gk-bLX"/>
+                            <constraint firstItem="Jew-5X-j3d" firstAttribute="trailing" secondItem="9KP-hz-KL9" secondAttribute="trailing" constant="77" id="TyK-Wy-m5S"/>
+                            <constraint firstItem="VBz-bl-GxJ" firstAttribute="leading" secondItem="Jew-5X-j3d" secondAttribute="leading" constant="58" id="VX3-Fl-GBf"/>
+                            <constraint firstItem="TEa-A4-QRa" firstAttribute="top" secondItem="te5-8R-6ho" secondAttribute="topMargin" constant="586" id="WUX-m2-Aby"/>
+                            <constraint firstItem="Jew-5X-j3d" firstAttribute="trailing" secondItem="TEa-A4-QRa" secondAttribute="trailing" constant="149" id="Wts-WT-9yv"/>
+                            <constraint firstItem="9KP-hz-KL9" firstAttribute="top" secondItem="te5-8R-6ho" secondAttribute="topMargin" constant="378" id="YKD-2N-EQF"/>
+                            <constraint firstItem="Jew-5X-j3d" firstAttribute="trailing" secondItem="bnp-2y-DDw" secondAttribute="trailing" constant="77" id="djo-8Q-Moi"/>
+                            <constraint firstItem="Jew-5X-j3d" firstAttribute="trailing" secondItem="cnb-8X-nhz" secondAttribute="trailing" constant="77" id="fXe-ht-du2"/>
+                            <constraint firstItem="bnp-2y-DDw" firstAttribute="leading" secondItem="Jew-5X-j3d" secondAttribute="leading" constant="58" id="jpo-cP-R9f"/>
+                            <constraint firstItem="bnp-2y-DDw" firstAttribute="top" secondItem="te5-8R-6ho" secondAttribute="topMargin" constant="184" id="pdv-ro-GVt"/>
+                            <constraint firstItem="Qzf-5R-GtE" firstAttribute="top" secondItem="te5-8R-6ho" secondAttribute="topMargin" constant="586" id="qPg-3I-8v8"/>
+                            <constraint firstItem="Jew-5X-j3d" firstAttribute="trailing" secondItem="FgD-mr-GCc" secondAttribute="trailing" constant="92" id="wcu-aS-ovj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Jew-5X-j3d"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E86-Y8-e1I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1509.5999999999999" y="131.78410794602701"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0lZ-Zl-t3L">
+            <objects>
+                <viewController id="fzB-Fl-aFM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6gf-Fn-IOI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DES2JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="9Ho-94-TcA">
+                                <rect key="frame" x="55" y="35" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="LeF-O8-q9c"/>
+                                    <constraint firstAttribute="height" constant="128" id="oet-KE-eyq"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x0N-vJ-EkI">
+                                <rect key="frame" x="67" y="171" width="240" height="283.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="0FF-hf-qD2"/>
+                                    <constraint firstAttribute="height" constant="283.5" id="qox-gg-myA"/>
+                                </constraints>
+                                <string key="text">Untuk Anda yang ingin merasakan piknik di tengah alam, tak ada salahnya mengunjungi hutan pinus di kawasan Taman Wisata Gunung Pancar.
+
+Tempat wisata di Bogor ini merupakan bumi perkemahan di Desa Karang Tengah, Kecamatan Babakan Madang, Kabupaten Bogor.
+
+Selain untuk berkemah, pemandangannya yang cantik juga sering diburu untuk selfie kekinian atau foto pre-wedding.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="uVz-Xh-emY">
+                                <rect key="frame" x="116" y="599" width="142" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="9v0-Jj-qie"/>
+                                    <constraint firstAttribute="width" constant="142" id="TUE-Fa-xQg"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdi-Dw-5zO">
+                                <rect key="frame" x="157" y="599" width="62" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="EGg-1z-2Az"/>
+                                    <constraint firstAttribute="width" constant="62" id="eHb-yq-z0G"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="rgZ-S6-8Ow" kind="show" id="2T8-iK-UWK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uVz-Xh-emY" firstAttribute="top" secondItem="6gf-Fn-IOI" secondAttribute="topMargin" constant="579" id="14o-nd-hOd"/>
+                            <constraint firstItem="4Pi-5U-UNA" firstAttribute="trailing" secondItem="x0N-vJ-EkI" secondAttribute="trailing" constant="68" id="4sY-Rg-1nw"/>
+                            <constraint firstItem="4Pi-5U-UNA" firstAttribute="trailing" secondItem="9Ho-94-TcA" secondAttribute="trailing" constant="80" id="4xo-LC-lyg"/>
+                            <constraint firstItem="x0N-vJ-EkI" firstAttribute="top" secondItem="6gf-Fn-IOI" secondAttribute="topMargin" constant="151" id="90K-pX-pH5"/>
+                            <constraint firstItem="uVz-Xh-emY" firstAttribute="leading" secondItem="4Pi-5U-UNA" secondAttribute="leading" constant="116" id="KvJ-1n-QeB"/>
+                            <constraint firstItem="x0N-vJ-EkI" firstAttribute="leading" secondItem="4Pi-5U-UNA" secondAttribute="leading" constant="67" id="LbD-L5-n64"/>
+                            <constraint firstItem="wdi-Dw-5zO" firstAttribute="leading" secondItem="4Pi-5U-UNA" secondAttribute="leading" constant="157" id="SKE-0E-PM8"/>
+                            <constraint firstItem="4Pi-5U-UNA" firstAttribute="trailing" secondItem="uVz-Xh-emY" secondAttribute="trailing" constant="117" id="WrQ-ks-qjd"/>
+                            <constraint firstItem="4Pi-5U-UNA" firstAttribute="trailing" secondItem="wdi-Dw-5zO" secondAttribute="trailing" constant="156" id="cfj-sb-5Gl"/>
+                            <constraint firstItem="wdi-Dw-5zO" firstAttribute="top" secondItem="6gf-Fn-IOI" secondAttribute="topMargin" constant="579" id="gNN-WQ-84M"/>
+                            <constraint firstItem="9Ho-94-TcA" firstAttribute="top" secondItem="6gf-Fn-IOI" secondAttribute="topMargin" constant="15" id="geX-JD-1gM"/>
+                            <constraint firstItem="9Ho-94-TcA" firstAttribute="leading" secondItem="4Pi-5U-UNA" secondAttribute="leading" constant="55" id="mWS-E5-ziB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4Pi-5U-UNA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TIy-bo-3uO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2116" y="792.95352323838085"/>
+        </scene>
+        <!--Bogor Map View Controller-->
+        <scene sceneID="lif-2n-uLO">
+            <objects>
+                <viewController id="7Bg-dU-16O" customClass="BogorMapViewController" customModule="Wisata" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rpJ-bp-jJ2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qPm-dH-WRl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="V9I-eN-Tqg"/>
+                                    <constraint firstAttribute="height" constant="667" id="hHp-ud-kRW"/>
+                                </constraints>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="omd-RX-WMZ">
+                                <rect key="frame" x="115" y="611" width="145" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="TNF-2a-TaT"/>
+                                    <constraint firstAttribute="width" constant="145" id="awk-LK-dhz"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gg0-J7-9H9">
+                                <rect key="frame" x="161" y="614" width="56" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="LEr-D0-knc"/>
+                                    <constraint firstAttribute="height" constant="33" id="QCE-6r-ady"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="rgZ-S6-8Ow" kind="show" id="LyC-Uc-sBT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qPm-dH-WRl" firstAttribute="trailing" secondItem="Ev8-dv-hzA" secondAttribute="trailing" id="0Be-xj-uFp"/>
+                            <constraint firstItem="omd-RX-WMZ" firstAttribute="top" secondItem="rpJ-bp-jJ2" secondAttribute="topMargin" constant="591" id="O6r-iF-SXh"/>
+                            <constraint firstItem="gg0-J7-9H9" firstAttribute="leading" secondItem="Ev8-dv-hzA" secondAttribute="leading" constant="161" id="OWh-KO-o2L"/>
+                            <constraint firstItem="qPm-dH-WRl" firstAttribute="bottom" secondItem="Ev8-dv-hzA" secondAttribute="bottom" id="PMt-iU-TpZ"/>
+                            <constraint firstItem="Ev8-dv-hzA" firstAttribute="trailing" secondItem="gg0-J7-9H9" secondAttribute="trailing" constant="158" id="YSh-OC-o6E"/>
+                            <constraint firstItem="omd-RX-WMZ" firstAttribute="leading" secondItem="Ev8-dv-hzA" secondAttribute="leading" constant="115" id="ks3-YQ-hCR"/>
+                            <constraint firstItem="qPm-dH-WRl" firstAttribute="top" secondItem="rpJ-bp-jJ2" secondAttribute="top" id="pdP-ZT-uOo"/>
+                            <constraint firstItem="Ev8-dv-hzA" firstAttribute="trailing" secondItem="omd-RX-WMZ" secondAttribute="trailing" constant="115" id="ubK-bf-DON"/>
+                            <constraint firstItem="qPm-dH-WRl" firstAttribute="leading" secondItem="Ev8-dv-hzA" secondAttribute="leading" id="yDa-Nx-O0a"/>
+                            <constraint firstItem="gg0-J7-9H9" firstAttribute="top" secondItem="rpJ-bp-jJ2" secondAttribute="topMargin" constant="594" id="zr2-C1-5bY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ev8-dv-hzA"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapKit" destination="qPm-dH-WRl" id="gqJ-X2-3PA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MZ8-LR-O3M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2452" y="1491.9040479760122"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2B3-qO-zF5">
+            <objects>
+                <viewController id="eDn-qD-SPr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jhL-fc-fNT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HARGA TIKET JOGJA" translatesAutoresizingMaskIntoConstraints="NO" id="xr6-V6-u3H">
+                                <rect key="frame" x="67" y="45" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="irI-8Q-b8l"/>
+                                    <constraint firstAttribute="width" constant="240" id="x7b-g3-WII"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aap-qu-Y9x">
+                                <rect key="frame" x="67" y="198" width="238" height="315"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="315" id="Lpm-qR-ltV"/>
+                                    <constraint firstAttribute="width" constant="238" id="dyl-Y8-BXh"/>
+                                </constraints>
+                                <string key="text">Harga Tiket Gunung Pancar Bogor
+Hari Biasa (Weekday)
+Rp 5.000/orang
+Rp 100.000/WNA
+Rp 5.000/motor
+Rp 10.000/mobil
+Akhir Pekan (Weekend), Hari Libur, Libur Nasional
+Rp 7.500/orang
+Rp 150.000/WNA
+Rp 7.500/motor
+Rp 15.000/mobil</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACK" translatesAutoresizingMaskIntoConstraints="NO" id="hn8-yH-dWH">
+                                <rect key="frame" x="115" y="599" width="142" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="142" id="G8i-ye-Kyk"/>
+                                    <constraint firstAttribute="height" constant="48" id="NJh-pO-gfi"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5g-Sc-dJ6">
+                                <rect key="frame" x="151" y="599" width="74" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="gNf-Xz-Ajx"/>
+                                    <constraint firstAttribute="width" constant="74" id="wfB-yO-G2b"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="rgZ-S6-8Ow" kind="show" id="dkX-jN-JEC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.94117647059999998" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aap-qu-Y9x" firstAttribute="leading" secondItem="X0d-oF-jpP" secondAttribute="leading" constant="67" id="7FR-dZ-tmZ"/>
+                            <constraint firstItem="X0d-oF-jpP" firstAttribute="trailing" secondItem="hn8-yH-dWH" secondAttribute="trailing" constant="118" id="9kC-5S-sXO"/>
+                            <constraint firstItem="aap-qu-Y9x" firstAttribute="top" secondItem="jhL-fc-fNT" secondAttribute="topMargin" constant="178" id="BCb-vA-iDG"/>
+                            <constraint firstItem="X0d-oF-jpP" firstAttribute="trailing" secondItem="xr6-V6-u3H" secondAttribute="trailing" constant="68" id="Iyf-Ph-wFc"/>
+                            <constraint firstItem="X0d-oF-jpP" firstAttribute="trailing" secondItem="aap-qu-Y9x" secondAttribute="trailing" constant="70" id="J0k-LB-OTM"/>
+                            <constraint firstItem="xr6-V6-u3H" firstAttribute="top" secondItem="jhL-fc-fNT" secondAttribute="topMargin" constant="25" id="SPd-le-nhy"/>
+                            <constraint firstItem="hn8-yH-dWH" firstAttribute="top" secondItem="jhL-fc-fNT" secondAttribute="topMargin" constant="579" id="VDz-xN-tjk"/>
+                            <constraint firstItem="hn8-yH-dWH" firstAttribute="leading" secondItem="X0d-oF-jpP" secondAttribute="leading" constant="115" id="WrX-hN-iCX"/>
+                            <constraint firstItem="z5g-Sc-dJ6" firstAttribute="leading" secondItem="X0d-oF-jpP" secondAttribute="leading" constant="151" id="bZb-S3-nce"/>
+                            <constraint firstItem="xr6-V6-u3H" firstAttribute="leading" secondItem="X0d-oF-jpP" secondAttribute="leading" constant="67" id="llu-7H-Jbp"/>
+                            <constraint firstItem="z5g-Sc-dJ6" firstAttribute="top" secondItem="jhL-fc-fNT" secondAttribute="topMargin" constant="579" id="ogu-ct-3si"/>
+                            <constraint firstItem="X0d-oF-jpP" firstAttribute="trailing" secondItem="z5g-Sc-dJ6" secondAttribute="trailing" constant="150" id="y1q-CY-2RN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="X0d-oF-jpP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ST4-l4-j7l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2776.8000000000002" y="786.65667166416802"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BACK" width="365" height="252"/>
+        <image name="Bekasi" width="745" height="211"/>
+        <image name="Bogor" width="745" height="211"/>
+        <image name="DES2JOGJA" width="564" height="153"/>
+        <image name="HARGA TIKET JOGJA" width="564" height="153"/>
+        <image name="JOGJA DES" width="483" height="78"/>
+        <image name="JOGJA VIDEO" width="564" height="153"/>
+        <image name="KOTA BANDUNG" width="863" height="252"/>
+        <image name="LOKASIJOGJA" width="564" height="153"/>
+        <image name="MENU" width="1554" height="2780"/>
+        <image name="WhiteJogja" width="797" height="233"/>
+        <image name="design" width="1567" height="2763"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="FzL-TE-6ty"/>
+        <segue reference="LyC-Uc-sBT"/>
+        <segue reference="brM-j4-lBH"/>
+        <segue reference="YuZ-5d-RTe"/>
+        <segue reference="buz-1l-qtK"/>
+        <segue reference="OeU-HE-b8Y"/>
+    </inferredMetricsTieBreakers>
+</document>
